@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<!--Begining of head section--> 
+<head>
+	 <title>Music Cluster</title>
+	 <!--Linking the CSS stylesheet using extrenal CSS-->
+	 <link rel="stylesheet" type="text/css" href="index.css">
+	 <!-- this will allow the icon to be visible in the title bar of the browser -->
+	 <link rel="icon" type="image/ico" href="Images/logo_1.png"/>
+	 <!--Font Awesome script for using icons from font awesome-->
+	 	<link href="fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+	 <!--Adds responsiveness to the website-->
+	 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+</head>
+<!--End of head section-->
+<body>
+	<!--Begining of navigation bar section-->
+	<nav id="artist_nav">
+		<!--Music Player Logo div-->
+		<div id="music-player-tag_artist">
+		 <div id="music-player-logo_artist">
+			 <img src="Images/logo_1.png">
+			 <!-- <i class="fa-solid fa-play"></i> -->
+		 </div>
+		 <!--Music Player Logo div end-->
+
+		 <!--Music Player Title-->
+		 <div id="music-player-name_artist">
+             Music<br/><b>Cluster</b>
+		 </div>
+		</div>
+		<!-- Home icon for navigating to home page -->
+		<div id="home_icon">
+			 <a href="index.html">
+			 	 <img src="Images/home-icon.png">
+			 </a>
+		</div>
+	</nav>
+    <!--End of navigation bar section-->
+
+
+    <!--Main Section-->
+    <main>
+    	<!--Artist Template-->
+    	<div id="artist-template">
+    		<div id="artist-image">
+    		</div>
+    		<!--Artist Details-->
+           <div id="artist-details">
+      	     <!--Artist Title-->
+      	     <div id="artist-title">
+      	     	<div>
+      	     	   <b>Arijit Singh</b>
+      	     	   <br/>
+      	     	   <artist-type>Playback Singer</artist-type>
+      	         </div>
+      	     	<followers>29.18M followers</followers>
+      	      </div>
+              <!--End of Artist Title-->
+              <!--Artist Intro-->
+      	     <div id="artist-intro">
+                  Arijit Singh (born 25 April 1987) is an Indian singer and music composer. He sings predominantly in Hindustani and Bengali but has also performed in various other Indian languages.
+      	     </div>
+      	     <!--End of Artist Intro-->
+      	     <!--Miscellaneous Buttons-->
+      	      <div id="artist-buttons">
+      	 	<div id="playall-button">
+      	 		Play All
+      	 	</div>
+      	 	<div id="follow-button">
+      	 		Follow
+      	 	</div>
+      	 </div>
+      	 <div id="tracks">
+      	 	300 Tracks | 150 Albums
+      	 </div>
+      	 <!--End of miscellaeous buttons-->
+      	 </div>
+         <!--End of artist details-->
+    	</div>
+    	<!--End of artist template-->
+
+    	<!--Begining of artist songs-->
+    	<div id="artist-songs">
+    		<!--Song 1-->
+    		<div id="song">
+    			<div id="song-number">
+    			    01
+    			    <img src="Images/artist-album.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Khairiyat
+    			    	<br/>
+    			    	<author>Arijit Singh</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 1-->
+    		<!--Song 2-->
+    		<div id="song">
+    			<div id="song-number">
+    			    02
+    			    <img src="Images/artist-album.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Hamdard
+    			    	<br/>
+    			    	<author>Arijit Singh</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 2-->
+    		<!--Song 3-->
+    		<div id="song">
+    			<div id="song-number">
+    			    03
+    			    <img src="Images/artist-album.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Hawayein 
+    			    	<br/>
+    			    	<author>Arijit Singh</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 3-->
+    		<!--Song 4-->
+    		<div id="song">
+    			<div id="song-number">
+    			    04
+    			    <img src="Images/artist-album.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Tera Yaar Hoon Main
+    			    	<br/>
+    			    	<author>Arijit Singh</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 4-->
+    		<!--Song 5-->
+    		<div id="song">
+    			<div id="song-number">
+    			    05
+    			    <img src="Images/artist-album.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Raat Bhar
+    			    	<br/>
+    			    	<author>Arijit Singh</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 5-->
+    		
+    </main>
+    <!--End of main section-->
+    
+    <!--Begining of Aside Section-->
+    <aside>
+    	<div id="aside-header-1">
+    		Similar Artists
+    		<x>View All</x>
+    	</div>
+        <!--Similar artist-->
+    	<div id="similar-artist">
+    		<div id="artist-img"></div>
+    		<div id="song-details">
+    			Neha Kakkar
+    			<br/>
+    	    <author>Playback Singer</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img"></div>
+    		<div id="song-details">
+    			Maanya Arora
+    			<br/>
+    	    <author>Classical Singer</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img"></div>
+    		<div id="song-details">
+    			Armaan Malik
+    			<br/>
+    	    <author>Playback singer</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+        <!--End of Similar artist-->
+    	<div id="aside-header-2">
+    		Recently Played
+    		<x>View All</x>
+    	</div>
+        <!--Recently Played Songs-->
+        <!--Song 1-->
+    	<div id="song">
+    			<div id="song-number">
+    			    01
+    			    <img src="Images/musical_note.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Khairiyat
+    			    	<br/>
+    			    	<author>Arijit Singh</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--ENd of song 1-->
+    		<!--Song 2-->
+    		<div id="song">
+    			<div id="song-number">
+    			    02
+    			    <img src="Images/musical_note.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	ManMohana
+    			    	<br/>
+    			    	<author>Maanya Arora</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 2-->
+    		<!--Song 3-->
+    		<div id="song">
+    			<div id="song-number">
+    			    03
+    			    <img src="Images/musical_note.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	 Tera Yaar Hoon Main
+    			    	<br/>
+    			    	<author>Arijit Singh</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 3-->
+    		<!--Song 4-->
+    		<div id="song">
+    			<div id="song-number">
+    			    04
+    			    <img src="Images/musical_note.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Garmi
+    			    	<br/>
+    			    	<author>Neha Kakkar</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 4-->
+    		<!--End of recently played songs-->
+    </aside>
+    <!--End of aside-->
+
+    <!--Begining of footer section-->
+   <footer>
+   <!--The bottom music bar which pops up when we play a music-->
+	<div id="music-bar">
+		<!--Music Icon-->
+		<div id="music-icon">
+			 <img src="Images/music-icon.png" alt="music-icon">
+		</div>
+		<!--End of music icon-->
+		<!--Music title-->
+		<div id="music-title">
+			<b>Khairiyat</b>
+            <div id="favourite">
+			   <i class="far fa-heart"></i>
+			</div>
+			<div id="remove">
+				<i class="fas fa-ban"></i>
+			</div>
+			<br/>
+			<artist>Arijit Singh</artist>
+		</div>
+		<!--End of music title-->
+		<!--Play buttons-->
+		<div id="play-buttons">
+			<i class="fas fa-random"></i>
+			<i class="fas fa-backward"></i>
+			<i class="fas fa-pause-circle"></i>
+			<i class="fas fa-forward"></i>
+			<i class="fas fa-undo-alt"></i>
+		</div>
+		<!--End of play buttons-->
+		<!--Music start time-->
+	    <div id="start-time">
+            0:00
+	    </div>
+	    <!--End of music start time-->
+	    <!--Music end time-->
+	    <div id="end-time">
+            4:58
+	    </div>
+	    <!--End of music end time-->
+	    <!--Begining of the progress bar-->
+		<div id="progress-bar">
+		     <div id="circle">
+			     <i class="fas fa-circle"></i>
+		    </div>
+		</div>
+		<!--End of progress bar-->
+		<!--Miscellaneous icons-->
+		<div id="queue">
+			<i class="fas fa-bars"></i>
+		</div>
+		<div id="volume">
+			<i class="fas fa-volume-up"></i>
+		</div>
+		<div id="progress-bar-volume">
+			<div id="circle-volume">
+			  <i class="fas fa-circle"></i>
+		    </div>
+		</div>
+		<!--End of miscellaneous icons-->
+	</div>
+	<!--End of music bar-->
+   </footer>
+   <!--End of footer section-->
+</body>
+<!--End of body section-->
+</html>
+<!--End of html code-->
